@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
   <title>Project Moon</title>
-  <link rel="icon" type="image/x-icon" href="../sets/pmn-files/icon.png">
+  <link rel="icon" type="image/x-icon" href="../sets/PMN-files/icon.png">
   <link rel="stylesheet" href="../resources/mana.css">
   <link rel="stylesheet" href="../resources/header.css">
   <link rel="stylesheet" href="../resources/card-text.css">
@@ -349,10 +349,10 @@
 	<div class="banner">
 		<div class="banner-container">
 			<div class="set-banner" id="set-banner">
-				<img class="set-logo" src="../sets/pmn-files/icon.png">
+				<img class="set-logo" src="../sets/PMN-files/icon.png">
 				<div class="banner-text">
 					<div class="set-title">Project Moon</div>
-					<div class="extras-container"><a href="../sets/pmn-files/pmn.xml" download>Play</a><div class="dot"> • </div>
+					<div class="extras-container"><a href="../sets/PMN-files/PMN.xml" download>Play</a><div class="dot"> • </div>
 			<a onclick="randomSetCard()">I'm Feeling Lucky</a>
 				</div>
 			</div>
@@ -503,7 +503,7 @@
 				}
 
 
-			await fetch(rootPath + '/sets/pmn-files/pmn-draft.txt')
+			await fetch(rootPath + '/sets/PMN-files/PMN-draft.txt')
 				.then(response => response.text())
 				.then(text => {
 					draft_file = text.replace(/},\n\t]/g, '}\n\t]');
@@ -513,7 +513,7 @@
       
 			for (let i = 0; i < card_list_arrayified.length; i++)
 			{
-				if (card_list_arrayified[i].set == "pmn")
+				if (card_list_arrayified[i].set == "PMN")
 				{
 					set_list_arrayified.push(card_list_arrayified[i]);
 				}
@@ -1335,7 +1335,7 @@
 			let set_card_list = [];
 			for (card of card_list_arrayified)
 			{
-				if (card.set == "pmn")
+				if (card.set == "PMN")
 				{
 					set_card_list.push(card);
 				}

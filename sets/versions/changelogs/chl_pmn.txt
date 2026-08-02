@@ -1,4 +1,24 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Blood added.
+Clue added.
+Horror added.
+Human Mercenary added.
+Human Soldier added.
+Human Soldier added.
+Human Soldier added.
+
+
+Roland's Gambit
+rules_text: Enchant Creature
+Enchanted creature is a 1/1 human mercenary and loses all abilities.
+{6}{U}{U}, Sacrifice this enchantment: Gain control of enchanted creature. => Enchant Creature
+Enchanted creature is a 1/1 human mercenary and loses all abilities.
+{9}, Sacrifice this enchantment: Gain control of enchanted creature.
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
